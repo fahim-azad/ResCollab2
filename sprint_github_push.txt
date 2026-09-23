@@ -1,0 +1,140 @@
+# ResCollab2 - Sprint GitHub Push Sequence
+
+This document outlines the sequential order for team members to push their work to GitHub. 
+Pushing in this order ensures that no one is blocked by missing dependencies (e.g., UI waiting for API, API waiting for Database).
+
+---
+
+## SEQUENCE 1: Registration Workflow
+Push Order: 1 -> 5
+
+1. [PUSH FIRST] Syeda Nazmun Nahar Ispahani
+   - Task: Design database schema for user accounts
+   - Files to push: 
+     - `backend-dotnet/Models/User.cs`
+     - `backend-dotnet/Data/ApplicationDbContext.cs`
+     - `backend-dotnet/Migrations/` (Migration files)
+
+2. [PUSH SECOND] Md. Fahim Azad
+   - Task: Build registration API endpoint (email + password)
+   - Files to push: 
+     - `backend-dotnet/Controllers/AuthController.cs` (Register method)
+
+3. [PUSH THIRD] Nahiyan Nower
+   - Task: Build registration UI screen
+   - Files to push: 
+     - `src/components/RegisterPage.tsx`
+     - `src/components/RegisterPage.css`
+
+4. [PUSH FOURTH] Mahmud Hasan
+   - Task: Implement input validation and error handling
+   - Files to push: 
+     - Updates to `src/components/RegisterPage.tsx`
+     - Updates to `backend-dotnet/Controllers/AuthController.cs`
+
+5. [PUSH FIFTH] Adiba Binta Noor
+   - Task: Test registration workflow
+   - Files to push: Bug fixes (if any) or QA test reports.
+
+---
+
+## SEQUENCE 2: Login and Session Flow
+Push Order: 6 -> 10
+
+6. [PUSH FIRST] Syeda Nazmun Nahar Ispahani
+   - Task: Design authentication/session flow
+   - Files to push: 
+     - `backend-dotnet/Program.cs` (JWT Auth configuration)
+     - `backend-dotnet/appsettings.json`
+
+7. [PUSH SECOND] Md. Fahim Azad
+   - Task: Build login API with session/JWT authentication
+   - Files to push: 
+     - `backend-dotnet/Controllers/AuthController.cs` (Login method)
+
+8. [PUSH THIRD] Nahiyan Nower
+   - Task: Build login UI screen
+   - Files to push: 
+     - `src/components/LoginPage.tsx`
+     - `src/components/LoginPage.css`
+
+9. [PUSH FOURTH] Mahmud Hasan
+   - Task: Implement role-based access/dashboard routing
+   - Files to push: 
+     - `src/App.tsx` (Routing)
+     - `src/components/DashboardLayout.tsx`
+     - `src/components/Sidebar.tsx`
+
+10. [PUSH FIFTH] Adiba Binta Noor
+    - Task: Test login and access control
+    - Files to push: Bug fixes / QA reports
+
+---
+
+## SEQUENCE 3: Profile System
+Push Order: 11 -> 15
+
+11. [PUSH FIRST] Syeda Nazmun Nahar Ispahani
+    - Task: Design unified Profile entity and API contract
+    - Files to push: 
+      - `backend-dotnet/Models/UserProfile.cs`
+      - `backend-dotnet/Data/ApplicationDbContext.cs`
+
+12. [PUSH SECOND] Md. Fahim Azad
+    - Task: Build profile CRUD API
+    - Files to push: 
+      - `backend-dotnet/Controllers/ProfileController.cs`
+
+13. [PUSH THIRD] Adiba Binta Noor
+    - Task: Build profile view/edit UI
+    - Files to push: 
+      - `src/components/ProfilePage.tsx`
+      - `src/components/ProfilePage.css`
+
+14. [PUSH FOURTH] Mahmud Hasan
+    - Task: Implement skills, interests and research information fields
+    - Files to push: 
+      - Updates to `src/components/ProfilePage.tsx`
+      - Updates to `backend-dotnet/Models/UserProfile.cs`
+
+15. [PUSH FIFTH] Adiba Binta Noor
+    - Task: Test profile persistence and permissions
+    - Files to push: Bug fixes / QA reports
+
+---
+
+## SEQUENCE 4: Search & External Integration
+Push Order: 16 -> 21
+
+16. [PUSH FIRST] Syeda Nazmun Nahar Ispahani
+    - Task: Design normalized research-resource schema
+    - Files to push: 
+      - `backend-dotnet/Models/ResearchResource.cs`
+      - `backend-dotnet/Models/ResourceTag.cs`
+
+17. [PUSH SECOND] Md. Fahim Azad
+    - Task: Implement first external research API connector
+    - Files to push: 
+      - `backend-dotnet/Services/IResearchConnector.cs`
+      - `backend-dotnet/Services/CrossrefConnector.cs`
+
+18. [PUSH THIRD] Nahiyan Nower
+    - Task: Build unified search API and basic filters
+    - Files to push: 
+      - `backend-dotnet/Controllers/SearchController.cs`
+
+19. [PUSH FOURTH] Mahmud Hasan
+    - Task: Build unified search UI
+    - Files to push: 
+      - `src/components/SearchPage.tsx`
+      - `src/components/SearchPage.css`
+
+20. [PUSH FIFTH] Adiba Binta Noor
+    - Task: Handle empty results and external API failure states
+    - Files to push: 
+      - Updates to `src/components/SearchPage.tsx`
+      - Updates to `backend-dotnet/Controllers/SearchController.cs`
+
+21. [PUSH SIXTH] Syeda Nazmun Nahar Ispahani
+    - Task: Test search, filtering and integration
+    - Files to push: Bug fixes / QA reports
