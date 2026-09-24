@@ -1,0 +1,92 @@
+Sprint 2 - GitHub Push Sequence (Exact File & Line Ownership)
+
+Push 1 (Syeda Nazmun Nahar Ispahani)
+- Push: `designs/supervisor_recommendation_design.md` (entire file)
+- Task: Design supervisor recommendation data flow and matching criteria
+
+Push 2 (Mahmud Hasan)
+- Push: `designs/supervisor_matching_rules.md` (entire file)
+- Task: Define requirement-to-profile matching rules and validation cases
+
+Push 3 (Md. Fahim Azad)
+- Push: `backend-dotnet/Controllers/RecommendationController.cs` (lines 1-127)
+- Push: `backend-dotnet/Models/UserProfile.cs` (added IsAcceptingStudents line)
+- Task: Implement supervisor recommendation service/API
+
+Push 4 (Adiba Binta Noor)
+- Push: `src/components/SupervisorRecommendations.tsx` (entire file)
+- Push: `src/components/SupervisorRecommendations.css` (entire file)
+- Push: `src/App.tsx` (lines 9 and 26)
+- Push: `src/components/Sidebar.tsx` (lines 33-35)
+- Task: Build supervisor discovery and recommendation UI
+
+Push 5 (Nahiyan Nower)
+- Push: `backend-dotnet/Data/DbSeeder.cs` (lines 1-90, 148-150)
+- Task: Test supervisor recommendations, profile visibility and no-result state
+
+Push 6 (Syeda Nazmun Nahar Ispahani)
+- Push: `designs/teammate_matching_design.md` (entire file)
+- Task: Design teammate matching logic and complementary-skill model
+
+Push 7 (Mahmud Hasan)
+- Push: `designs/teammate_validation_cases.md` (entire file)
+- Task: Validate matching criteria against user stories and profile data
+
+Push 8 (Md. Fahim Azad)
+- Push: `backend-dotnet/Controllers/RecommendationController.cs` (lines 128-232)
+- Task: Implement teammate matching API/service
+
+Push 9 (Adiba Binta Noor)
+- Push: `src/components/TeammateRecommendations.tsx` (entire file)
+- Push: `src/components/TeammateRecommendations.css` (entire file)
+- Push: `src/App.tsx` (lines 10 and 27)
+- Push: `src/components/Sidebar.tsx` (lines 36-38)
+- Task: Build teammate recommendation UI and candidate cards
+
+Push 10 (Nahiyan Nower)
+- Push: `backend-dotnet/Data/DbSeeder.cs` (lines 91-147)
+- Task: Test teammate recommendations and visibility permissions
+
+Push 11 (Syeda Nazmun Nahar Ispahani)
+- Push: `designs/idea_marketplace_design.md` (entire file)
+- Task: Design research idea marketplace data model and workflow
+
+Push 12 (Md. Fahim Azad)
+- Push: `backend-dotnet/Models/ResearchIdea.cs` (entire file)
+- Push: `backend-dotnet/Models/IdeaApplication.cs` (entire file)
+- Push: `backend-dotnet/Controllers/IdeaController.cs` (lines 1-116)
+- Push: `backend-dotnet/Data/ApplicationDbContext.cs` (lines 14-15 and 33-40)
+- Task: Build research idea create/list/detail APIs
+
+Push 13 (Nahiyan Nower)
+- Push: `src/components/IdeaMarketplace.tsx` (entire file)
+- Push: `src/components/IdeaMarketplace.css` (entire file)
+- Push: `src/App.tsx` (lines 11 and 28)
+- Push: `src/components/Sidebar.tsx` (lines 39-41)
+- Task: Build idea marketplace UI with browse/filter
+
+Push 14 (Mahmud Hasan)
+- Push: `backend-dotnet/Controllers/IdeaController.cs` (lines 117-180)
+- Push: `src/components/IdeaMarketplace.tsx` (lines 69-90 and 117-119 - Apply Logic)
+- Task: Implement idea interest/application approval-rejection flow and test
+
+Push 15 (Syeda Nazmun Nahar Ispahani)
+- Push: `designs/open_project_design.md` (entire file)
+- Task: Design open project listing schema and recruitment workflow
+
+Push 16 (Adiba Binta Noor)
+- Push: `designs/open_project_validation.md` (entire file)
+- Task: Validate faculty/supervisor project requirements and acceptance criteria
+
+Push 17 (Md. Fahim Azad)
+- Push: `backend-dotnet/Models/OpenProject.cs` (entire file)
+- Push: `backend-dotnet/Controllers/OpenProjectController.cs` (entire file)
+- Push: `backend-dotnet/Data/ApplicationDbContext.cs` (lines 16-17 and 48-55)
+- Task: Build open project create/manage API
+
+Push 18 (Nahiyan Nower)
+- Push: `src/components/ProjectMarketplace.tsx` (entire file)
+- Push: `src/components/ProjectMarketplace.css` (entire file)
+- Push: `src/App.tsx` (lines 12 and 29)
+- Push: `src/components/Sidebar.tsx` (lines 42-44)
+- Task: Build open project marketplace UI and filters

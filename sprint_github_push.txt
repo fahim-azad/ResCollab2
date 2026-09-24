@@ -5,6 +5,20 @@ Pushing in this order ensures that no one is blocked by missing dependencies (e.
 
 ---
 
+## SEQUENCE 0: Initial Project Setup (Team Lead)
+Push Order: 0 (Must be done before Sequence 1 begins)
+
+0. [PUSH FIRST] Md. Fahim Azad (or Team Lead)
+   - Task: Push the base project scaffolding so everyone works in the same environment.
+   - Files and Folders to push:
+     - Root Files: `package.json`, `package-lock.json`, `vite.config.ts`, `tsconfig.*.json`, `index.html`, `.gitignore`, `README.md`
+     - Assets/Static Files: Everything inside `public/` and `src/assets/`
+     - Frontend Base: `src/main.tsx`, `src/index.css`, `src/App.tsx` (initial empty routing)
+     - Backend Base: `backend-dotnet/ResCollab.Api.csproj`, `backend-dotnet/Program.cs` (initial config), `backend-dotnet/appsettings.json` (initial config)
+     - *(Note: The old `backend/` Node.js folder can be ignored or deleted since we are using .NET)*
+
+---
+
 ## SEQUENCE 1: Registration Workflow
 Push Order: 1 -> 5
 

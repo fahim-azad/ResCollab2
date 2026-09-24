@@ -1,0 +1,27 @@
+Sprint 2 - Sequential Task List
+
+Feature 1: Supervisor Recommendation System
+Task 1: [x] Design supervisor recommendation data flow and matching criteria
+Task 2: [x] Define requirement-to-profile matching rules and validation cases
+Task 3: [x] Implement supervisor recommendation service/API
+Task 4: [x] Build supervisor discovery and recommendation UI
+Task 5: [x] Test supervisor recommendations, profile visibility and no-result state
+
+Feature 2: Teammate Matching System
+Task 6: [x] Design teammate matching logic and complementary-skill model
+Task 7: [x] Validate matching criteria against user stories and profile data
+Task 8: [x] Implement teammate matching API/service
+Task 9: [x] Build teammate recommendation UI and candidate cards
+Task 10: [x] Test teammate recommendations and visibility permissions
+
+Feature 3: Research Idea Marketplace
+Task 11: [x] Design research idea marketplace data model and workflow
+Task 12: [x] Build research idea create/list/detail APIs
+Task 13: [x] Build idea marketplace UI with browse/filter
+Task 14: [x] Implement idea interest/application approval-rejection flow and test
+
+Feature 4: Open Project Marketplace
+Task 15: [x] Design open project listing schema and recruitment workflow
+Task 16: [x] Validate faculty/supervisor project requirements and acceptance criteria
+Task 17: [x] Build open project create/manage API
+Task 18: [x] Build open project marketplace UI and filters
