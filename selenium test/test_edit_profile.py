@@ -8,7 +8,6 @@ def test_edit_profile():
     driver = webdriver.Chrome()
 
     try:
-        # STEP 1: LOGIN
         print("1. Navigating to login page...")
         driver.get("http://localhost:5173/login")
 
